@@ -1,0 +1,242 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header{
+    background: #D2EBFF;
+}
+
+.navbar{
+    padding-top: 20px;
+    border-bottom: none;
+    /* width: 50%; */
+    /* height: auto; */
+}
+
+.nav-item{
+    margin-left: 40px;
+    margin-bottom: 10px;
+    /* text-decoration: none; */
+}
+
+.navbarbrand{
+    color: #0b3877;
+    font-size: 20px;
+    padding: 2px 2px 2px 2px;
+}
+
+.navbarbrand img{
+    width: 100%;
+    height: 20vh;
+}
+.navlink{
+    color: #0b3877 !important;
+    font-size: 15px !important; 
+    padding: 0 0 5px 0 !important;
+    display: unset !important;
+    text-decoration: none;
+}
+
+.fa-bars{
+    color: #0b3877;
+    font-size: 30px !important;
+}
+
+.navbar-nav{
+    float: right;
+}
+
+.navbar-toggler{
+    border: 0 !important;
+    outline: none;
+    padding: initial;
+}
+
+.active-home{
+    border-bottom: 2px solid #0b3877;
+}
+
+.navlink:hover{
+    border-bottom: 2px solid #0b3877;
+}
+
+.banner{
+    margin-top:  8%;
+    color: #0b3877;
+}
+
+.banner h1{
+    margin: 80px 0 50px;
+    padding-top: 100px;
+    font-weight: 600;
+    font-size: 50px;
+}
+
+.banner img{
+    width: 100%;
+    height: auto;
+}
+
+.banner p{
+    padding-bottom: 20px;
+}
+
+.banner a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #D2EBFF;
+    text-decoration: none !important;
+    color: #0b3877;
+    border: 2px solid #0b3877;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.banner a:hover{
+    background-color: #0b3877;
+    color: #D2EBFF;
+}
+
+.express-btn{
+    background: #0b3877 !important;
+    color: #D2EBFF !important;
+    margin-right: 5px;
+}
+
+/* Use */
+
+.service{
+    margin: 100px 0;
+}
+.title{
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 80px;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 30px;
+    color: #0b3877;
+}
+
+.subtitle{
+    text-align: center;
+    /* font-weight: bold; */
+    padding-left: 70px;
+    padding-top: 100px;
+    margin-bottom: 70px;
+    font-size: 15px;
+    color: #0b3877;
+}
+
+.service-box{
+    /* padding: 0 35px; */
+    padding-left: 10px;
+    cursor: pointer;
+    margin-bottom: auto;
+    transition: 0.5s;
+}
+
+.service-box img{
+    align-items: center;
+    justify-content: center;
+    padding-left: 160px;
+    width: 250px;
+    margin-top: 65px;
+    margin-bottom: 45px;
+}
+
+.service-box h6{
+    align-items: center;
+    justify-content: center;
+    padding-left: 160px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0b3877;
+}
+
+.service-box p{
+    align-items: center;
+    justify-content: center;
+    padding-left: 160px;
+    font-size: 14px;
+    color: #0b3877;
+}
+.service-box:hover{
+    border-radius: 5px;
+    background: #0b3877;
+    color: #D2EBFF !important;
+    box-shadow: 0 15px 15px 2px rgba(213, 213, 213, 0.5);
+}
+.service-box:hover p{
+    color: #D2EBFF;
+}
+.service-box:hover h6{
+    color: #D2EBFF;
+}
+
+.active-service p{
+    color: #D2EBFF !important;
+}
+
+/* Steps */
+
+.steps{
+    margin: 100px 0;
+}
+
+.steps h3{
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #0b3877;
+}
+
+.steps p{
+    margin-top: 10px;
+    margin-bottom: 30px;
+    color: #0b3877;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+.steps a{
+    padding: 12px;
+    width: 150px;
+    display: inline-block;
+    background: #0b3877;
+    text-decoration: none !important;
+    color: #D2EBFF;
+    border: 2px solid #D2EBFF;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.steps a:hover{
+    color: #0b3877;
+    background-color: #D2EBFF;
+}
+
+.steps img{
+    padding-left: 70px;
+    /* padding-bottom: 20px; */
+    padding-bottom: 50px;
+    width: 85%;
+}
+
+.steps h5{
+    margin-top: 5px;
+    color: #0b3877;
+    font-size: 20px;
+}
